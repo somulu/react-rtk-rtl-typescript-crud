@@ -32,6 +32,7 @@ const AddBook = () => {
     }
     dispatch(addNewBook({ author, title, id: uuidv4() }));
     clearInputs();
+    history.push("/");
   };
 
   const editBook = () => {

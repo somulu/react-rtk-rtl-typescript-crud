@@ -24,9 +24,6 @@ const Navbar = () => {
             color="white"
             letterSpacing="0.65px"
           >
-            <Text fontSize={["xl", "2xl", "2xl", "2xl"]} mr={2}>
-              🦉
-            </Text>
             Library App
           </Button>
         </Link>
